@@ -2088,4 +2088,3 @@ $bootstrap-icons-map: (
 @each $icon, $codepoint in $bootstrap-icons-map {
   .bi-#{$icon}::before { content: $codepoint; }
 }
-
